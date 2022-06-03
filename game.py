@@ -13,7 +13,7 @@ player = Player()
 
 board = [['_' for x in range(10)] for y in range(10)]
 
-minerals = MineralNodes.generateNodes()
+minerals = MineralNodes.generateNodes
 
 for x in range(len(minerals)):
     val = minerals[x].get_value()
